@@ -1,0 +1,10 @@
+@import "../../styles/_colors.scss";
+.details{
+    background: linear-gradient(to right bottom,rgba(252,104,18,.1),rgba(0,0,0,.5)),url(https://media.zicxa.com/4215634);
+    height: 60vh;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+}

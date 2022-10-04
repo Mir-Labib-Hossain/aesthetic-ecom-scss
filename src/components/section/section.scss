@@ -1,0 +1,23 @@
+@import "../../styles/colors";
+@import "../../styles/buttons";
+
+.main-section{
+    background: linear-gradient(to right bottom,rgba(252,104,18,.1),rgba(252,96,69,.5)),url(https://img.freepik.com/premium-photo/minimal-aesthetic-fashion-clothes-concept-neutral-beige-washed-linen-female-blouses-dresses-tshirts-hanger-white-background-fashion-blog-website-social-media_408798-9278.jpg?w=2000);
+    height: 80vh;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    display: grid;
+    place-content: center;
+    .contents{
+        text-align: center;
+        h1{
+            font-size: 3rem;
+            color: $main-color;
+            
+        }
+        .btn{
+            @include button
+        }
+    }
+}

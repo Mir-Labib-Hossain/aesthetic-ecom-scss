@@ -1,0 +1,68 @@
+@import "../../styles/colors";
+
+@import "../../styles/mixins";
+
+
+.header {
+  position: sticky;
+  top: 0;
+  
+  background-color: $main-color;
+  
+  nav {
+    @include flex-center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .ul-items {
+      list-style: none;
+
+      .li-items {
+        display: flex;
+        flex-wrap: wrap;
+        .active-link {
+          color: $orange-color;
+          text-decoration: underline;
+        }
+        a {
+          text-decoration: none;
+          color: $secondary-color;
+          margin: 0 1rem;
+          font-size: 12px;
+
+          &:hover {
+            color: $orange-color;
+          }
+
+        }
+      }
+    }
+    .logo {
+      text-transform: uppercase;
+      margin: 20px 0
+      
+    }
+    .right {
+      @include flex-center;
+      .search {
+        @include flex-center;
+        color: $gray-color;
+      }
+      .search-btn {
+      }
+    }
+    .right-buttons {
+      @include flex-center;
+
+      button {
+        margin: 0 1rem;
+        a {
+          color: $gray-color;
+        }
+      }
+      .icon {
+        color: $icon-color;
+      }
+    }
+  }
+}

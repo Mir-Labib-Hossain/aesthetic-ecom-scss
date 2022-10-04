@@ -1,0 +1,24 @@
+@import "../../styles/colors";
+
+.block {
+    width: 23%;
+    max-width: 250px;
+    min-width: 250px;
+    margin-top: 20px;
+display: flex;
+flex-direction: column;
+
+p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+img {
+    
+      margin: auto;
+    background-color: $orange-section;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+}

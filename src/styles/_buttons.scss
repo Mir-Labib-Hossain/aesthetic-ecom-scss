@@ -1,0 +1,16 @@
+@mixin button{
+    padding: 10px 2rem;
+    border-radius: 20px;
+    color: $main-color;
+    font-weight: bolder;
+    border: 2px solid $main-color;
+    font-size: 15px;
+    margin-top: 1rem;
+
+    &:hover{
+        transform: scale(110%);
+        transition: .5s ease-in-out;
+        color: $secondary-color;
+        background-color: $main-color;
+    }
+}

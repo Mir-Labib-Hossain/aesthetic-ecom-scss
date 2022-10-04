@@ -1,0 +1,14 @@
+@import "../../styles/colors";
+
+.footer{
+background-color: $cream-color;
+.footer-wraper{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    p{
+        margin: 20px 0;
+        color: $gray-color;
+    }
+}
+}
